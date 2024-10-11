@@ -15,7 +15,7 @@ datasource db {
 
 model Url {
   id       Int    @id @default(autoincrement())
-  shortUrl String
+  shortUrl String @unique
   longUrl  String
 
   @@map("urls")
