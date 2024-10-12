@@ -8,7 +8,6 @@ import {
   Param,
   Post,
   Redirect,
-  Res,
 } from '@nestjs/common';
 import { UrlShortenerService } from './url-shortener.service';
 import { CreateUrlDto } from './DTO';
